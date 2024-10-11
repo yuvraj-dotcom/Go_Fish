@@ -22,6 +22,12 @@ public class Game {
         
         for (int i = 1; i <= numPlayers; i++){
             players.add(new Player("Player " + i));
-        }  
+        }
+        
+        for (Player player : players){
+            for(int j = 0; j<5; j++){
+                player.addCardToHand(deck.drawCard());
+            }
+        }
     }
 }
