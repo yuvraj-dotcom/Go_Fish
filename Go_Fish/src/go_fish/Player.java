@@ -12,7 +12,7 @@ import java.util.List;
  * @author rav0073
  */
 class Player {
-    private String name;
+    private String name; 
     private List<Card> hand;
     
     public Player(String name){
