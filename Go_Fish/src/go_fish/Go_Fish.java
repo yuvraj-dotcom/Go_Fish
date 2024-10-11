@@ -17,5 +17,4 @@ public class Go_Fish {
         Game goFish = new Game(2);
         goFish.startGame();
     }
-    
 }
