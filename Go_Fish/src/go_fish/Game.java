@@ -30,4 +30,12 @@ public class Game {
             }
         }
     }
+    
+    public void startGame(){
+        System.out.println("Starting Go Fish Card game.....");
+        
+        for (Player player: players){
+            System.out.println(player);
+        }
+    }
 }
