@@ -42,4 +42,8 @@ public class Game {
     public void checkForPair(Player player){
         System.out.println(player.getName() + " is checking pairs!!");
     }
+    
+    public void declareWinner(){
+        System.out.println("Winner is declared!!");
+    }
 }
