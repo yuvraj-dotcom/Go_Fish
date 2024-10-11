@@ -4,15 +4,18 @@
  */
 package go_fish;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author rav0073
  */
 class Player {
-    private string name;
+    private String name;
     private List<Card> hand;
     
-    publicPlayer(String name){
+    public Player(String name){
         this.name = name;
         this.hand = new ArrayList<>();
     }
@@ -21,7 +24,7 @@ class Player {
     }
     public Card askforCard(String rank) {
         for(Card card : hand) {
-            if (card.getrank().equals(rank)){
+            if (card.getRank().equals(rank)){
                 return card;
             }
         }
@@ -40,6 +43,7 @@ class Player {
     public String toString() {
         return name + " 's hand: "+ hand;
     }
+}
     
     
 
