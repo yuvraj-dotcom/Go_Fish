@@ -38,4 +38,8 @@ public class Game {
             System.out.println(player);
         }
     }
+    
+    public void checkForPair(Player player){
+        System.out.println(player.getName() + " is checking pairs!!");
+    }
 }
