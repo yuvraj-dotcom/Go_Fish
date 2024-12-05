@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  *
- * @author rav0073
+ * @author krthk07
  */
 public class GoFishPlayer extends Player {
     private List<GoFishCard> hand;
