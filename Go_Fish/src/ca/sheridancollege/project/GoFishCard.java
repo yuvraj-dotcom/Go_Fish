@@ -6,7 +6,7 @@ package ca.sheridancollege.project;
 
 /**
  *
- * @author rav0073
+ * @author Muhannad Ekasheh
  */
 public class GoFishCard extends Card {
     private String rank;
