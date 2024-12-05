@@ -6,7 +6,7 @@ package ca.sheridancollege.project;
 
 /**
  *
- * @author rav0073
+ * @author krthk07
  */
 public class GoFishMain {
     public static void main(String[] args) {
