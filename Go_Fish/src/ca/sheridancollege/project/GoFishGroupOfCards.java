@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  *
- * @author rav0073
+ * @author Muhannad Ekasheh
  */
 public class GoFishGroupOfCards extends GroupOfCards {
 
